@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void cla(){
 
-        
+
+    }
+
+    public void ola(){
+
     }
 }
