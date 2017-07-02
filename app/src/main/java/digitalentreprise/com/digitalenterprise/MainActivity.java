@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     public Button ola;
     private Button OlaXPTO;
     private Button Alexandre;
-    private Button XPTO;
+    private Button XPTO1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
