@@ -7,6 +7,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public Button ola;
+    private Button OlaXPTO;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
