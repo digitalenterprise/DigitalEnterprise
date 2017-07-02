@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         String coiso;
 
     }
-    
+
     public void ola(){
 
     }
