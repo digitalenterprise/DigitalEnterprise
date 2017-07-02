@@ -8,6 +8,7 @@ public class MainActivity extends AppCompatActivity {
 
     public Button ola;
     private Button OlaXPTO;
+    private Button Diogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
