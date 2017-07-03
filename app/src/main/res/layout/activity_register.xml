@@ -7,6 +7,99 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="digitalentreprise.com.digitalenterprise.Activity.RegisterActivity">
+    tools:context="digitalentreprise.com.digitalenterprise.Activity.RegisterActivity"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical|center_horizontal">
 
+    <ImageView
+        android:layout_width="@dimen/Altura_Logo_Register_Login"
+        android:layout_height="@dimen/Largura_Logo_Register_Login"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="346dp"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_RegisterActivity_Nome"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginTop="172dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Nome" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/EditText_RegisterActivity_Email"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/EditText_RegisterActivity_Password"
+        android:layout_below="@+id/EditText_RegisterActivity_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_RegisterActivity_Registar"
+        android:id="@+id/Button_RegisterActivity_Register"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/EditText_RegisterActivity_DataNascimento"
+        android:layout_below="@+id/EditText_RegisterActivity_Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Data de Nascimento" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/EditText_RegisterActivity_DataNascimento"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_above="@+id/Button_RegisterActivity_Register"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:id="@+id/RadioGroup_RegisterActivity_Genre">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:id="@+id/RadioButton_RegisterActivity_Male"
+            android:layout_gravity="right"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino"
+            android:id="@+id/RadioButton_RegisterActivity_Female"
+            android:checked="false" />
+
+    </RadioGroup>
 </RelativeLayout>

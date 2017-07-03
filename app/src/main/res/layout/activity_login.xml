@@ -7,6 +7,54 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="digitalentreprise.com.digitalenterprise.Activity.LoginActivity">
+    tools:context="digitalentreprise.com.digitalenterprise.Activity.LoginActivity"
+    android:background="#FFFFFF">
 
+    <ImageView
+        android:layout_width="@dimen/Altura_Logo_Register_Login"
+        android:layout_height="@dimen/Largura_Logo_Register_Login"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_LoginActivity_Email"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/EditText_LoginActivity_Password"
+        android:layout_below="@+id/EditText_LoginActivity_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/Button_LoginActivity_Login"
+        android:layout_below="@+id/EditText_LoginActivity_Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Não tem conta? Registe-se"
+        android:id="@+id/TextView_LoginActivity_Registar"
+        android:layout_below="@+id/Button_LoginActivity_Login"
+        android:layout_centerHorizontal="true"
+        android:onClick="OpenRegisterActivity" />
 </RelativeLayout>

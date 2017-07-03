@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "324821359919",
+    "firebase_url": "https://digitalentreprise-e9bd0.firebaseio.com",
+    "project_id": "digitalentreprise-e9bd0",
+    "storage_bucket": "digitalentreprise-e9bd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324821359919:android:2cc1b4cc21174fd6",
+        "android_client_info": {
+          "package_name": "digitalentreprise.com.digitalenterprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324821359919-i51dccfv127ftqoo0elu5rtdprjc37mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "digitalentreprise.com.digitalenterprise",
+            "certificate_hash": "1aa685af17e10d427e1a0cde341e0efc5a7e3176"
+          }
+        },
+        {
+          "client_id": "324821359919-qf2v46v45v0gr1gt1b9uo17f5oiq1aso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmHkcCAzYQdL85RipXdl6QV0X_O3MqEKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324821359919-qf2v46v45v0gr1gt1b9uo17f5oiq1aso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

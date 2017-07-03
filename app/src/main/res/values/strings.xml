@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DigitalEnterprise</string>
+    <string name="Button_RegisterActivity_Registar">Registar</string>
 </resources>
