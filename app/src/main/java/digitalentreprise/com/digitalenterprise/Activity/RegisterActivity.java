@@ -96,8 +96,8 @@ public class RegisterActivity extends AppCompatActivity {
                     User.SaveUser();
                     //FirebaseAuthException e = (FirebaseAuthException)task.getException();
                     //Log.e("RegisterActivity", "Failed Registration", e);
-                    Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
-                    startActivity(intent);
+                    //Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
+                    //startActivity(intent);
                     //Toast.makeText(LoginActivity.this, "Failed Registration: "+e.getMessage(), Toast.LENGTH_SHORT).show();
                     //Log.w("RegisterActivity", "signInWithEmail:failed", task.getException());
                     //Toast.makeText(RegisterActivity.this, "User Authentication Failed: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
